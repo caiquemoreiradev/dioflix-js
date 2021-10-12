@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIOFLIX</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-256/netflix-6-722723.png"
+        type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="models">
+        <li class="music__item">
+            <img id="cover" src="../img/covers/lil_uzi.png" alt="">
+            <div class="music__info">
+                <div class="music__actions">
+                    <a id="play" href="#">
+                        <img src="../img/main/play_circle_filled_white_24dp.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/main/thumb_up_white_24dp.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/main/thumb_down_alt_white_24dp.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/main/add_white_24dp.svg" alt="">
+                    </a>
+                </div>
+                <p id="music__name">Myron - Lil Uzi Vert</p>
+            </div>
+        </li>
+    </div>
+
+    <header>
+
+        <div class="left__content">
+            <img src="../img/header/logo.png" alt="DIOFLIX logo">
+
+            <nav>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/">Vídeos</a></li>
+                <li><a href="/">Aúdios</a></li>
+                <li><a href="/">Mais recentes</a></li>
+                <li><a href="/">Minha lista</a></li>
+            </nav>
+        </div>
+
+        <div class="right__content">
+
+            <div class="search__bar">
+                <img src="../img/header/search_black_24dp.svg" alt="search">
+                <input placeholder="Pesquisar..." type="text">
+            </div>
+
+            <div class="profile">
+                <img src="../img/header/profile__img.jpg" alt="profile">
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="hero__container">
+
+            <div class="hero__info">
+                <img src="../img/main/hold_on.png" alt="music">
+
+                <p>Yeah, I think it's time to shine, I've been waiting so long
+                    Broski serving time, he been gone for so long
+                    And I promise I'ma do this shit for us, just hold on
+                </p>
+            </div>
+
+            <div class="buttons__container">
+                <button id="listen__now">
+                    <img src="../img/main/play_circle_filled_white_24dp.svg" alt="">
+                    Escutar agora
+                </button>
+
+                <button id="add__list">
+                    <img src="../img/main/add.png" alt="">
+                    Adicionar a minha lista
+                </button>
+            </div>
+        </div>
+
+        <section class="recently__add">
+
+            <h3>Recentemente adicionados ao DIOFLIX</h3>
+
+            <div class="musics__row">
+                <ul class="musics__list">
+                   
+                </ul>
+            </div>
+        </section>
+
+        <section class="trap">
+
+            <h3>Trap</h3>
+
+            <div class="musics__row">
+                <ul class="musics__list">
+                   
+                </ul>
+            </div>
+        </section>
+
+        <section class="recommended">
+
+            <h3>Recomendado pra você</h3>
+
+            <div class="musics__row">
+                <ul class="musics__list">
+                   
+                </ul>
+            </div>
+        </section>
+
+        <section class="rock">
+
+            <h3>Rock</h3>
+
+            <div class="musics__row">
+                <ul class="musics__list">
+                   
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="../javascript/data.js"></script>
+<script src="../javascript/script.js"></script>
+</html>
